@@ -31,10 +31,10 @@ const Contact = () => {
                     E-MAIL
                   </h2>
                   <Link
-                    href="mailto:anujsbhuyar@gmail.com"
+                    href="mailto:ayshivgan@gmail.com"
                     className="text-lg text-gray-600 hover:text-gray-900 transition-colors "
                   >
-                    ↗ anujsbhuyar@gmail.com
+                    ↗ ayshivgan@gmail.com
                   </Link>
                 </div>
                 <div>
@@ -43,7 +43,7 @@ const Contact = () => {
                   </h2>
                   <div className="space-y-2">
                     <Link
-                      href="https://github.com/anujsb"
+                      href="https://github.com/Ashlesha2003"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-lg text-gray-700 hover:text-gray-900 transition-colors"
@@ -51,21 +51,21 @@ const Contact = () => {
                       ↗ Github
                     </Link>
                     <Link
-                      href="https://www.linkedin.com/in/anujbhuyar/"
+                      href="https://www.linkedin.com/in/ashlesha-shivgan/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-lg text-gray-700 hover:text-gray-900 transition-colors"
                     >
                       ↗ Linkedin
                     </Link>
-                    <Link
+                    {/* <Link
                       href="https://www.21bubbles.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-lg text-gray-700 hover:text-gray-900 transition-colors"
                     >
                       ↗ Agency
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>

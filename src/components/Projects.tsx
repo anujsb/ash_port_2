@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import { useState, useRef, ReactNode, MouseEvent } from "react";
@@ -58,7 +56,6 @@ interface BentoCardProps {
   description?: string;
   link?: string;
 }
-
 
 export const BentoCard: React.FC<BentoCardProps> = ({
   src,
@@ -152,14 +149,14 @@ const Projects: React.FC = () => (
         </div>
       </div>
 
-      <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh] transition-transform duration-300 ease-out">
+      {/* <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh] transition-transform duration-300 ease-out">
         <BentoCard
           src="/aiform.png"
           title={<>AI Form Builder</>}
           description="AI-powered form builder with question generation, feedback categorization, and real-time insights."
           link="https://aiforms.21bubbles.com/"
         />
-      </BentoTilt>
+      </BentoTilt> */}
 
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="border-hsla row-span-1 md:col-span-1 md:row-span-2 rounded-md transition-transform duration-300 ease-out">
@@ -183,29 +180,29 @@ const Projects: React.FC = () => (
         <BentoTilt className="border-hsla rounded-md transition-transform duration-300 ease-out me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="/digi.png"
-            title={<>DigiPalettee</>}
-            description="A platform designed to create interactive, engaging digital content for businesses."
-            link="https://www.digipalettes.com/"
+            title={<>AI model for prediction of text </>}
+            description="To develope a user interface for doctors to generate prescription using Natural Language Processing as integrated AI model for prediction of text."
+            link=""
           />
         </BentoTilt>
 
         <BentoTilt className="border-hsla rounded-md transition-transform duration-300 ease-out me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="/21b.png"
-            title={<>AI Tools List</>}
-            description="Self-curated platform showcasing a collection of AI tools."
-            link="https://aitools.21bubbles.com"
+            title={<>Auto capture photo by detecting smile</>}
+            description="In this project, we developed an Auto-Capture photo system using smile detection technology."
+            link=""
           />
         </BentoTilt>
 
-        <BentoTilt className="border-hsla rounded-md transition-transform duration-300 ease-out me-14 md:col-span-1 md:me-0">
+        {/* <BentoTilt className="border-hsla rounded-md transition-transform duration-300 ease-out me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="/nyay.png"
             title={<>Nyaysutra</>}
             description="SIH landing page built to represent solutions for judicial efficiency."
             link="https://nyaysutra.netlify.app"
           />
-        </BentoTilt>
+        </BentoTilt> */}
       </div>
     </div>
   </section>
