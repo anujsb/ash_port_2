@@ -43,7 +43,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ name, color, badges }) => {
         transformStyle: "preserve-3d",
       }}
     >
-      <div className="absolute inset-0 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      {/* <div className="absolute inset-0 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <motion.div
           className={`absolute w-[280px] h-[200px] -top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${color} flex items-center justify-center p-4 rounded-lg shadow-md`}
           style={{
@@ -58,7 +58,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ name, color, badges }) => {
             ))}
           </div>
         </motion.div>
-      </div>
+      </div> */}
 
       <motion.span
         className="block text-5xl py-4 group-hover:text-opacity-25 transition-all duration-300"
@@ -75,7 +75,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ name, color, badges }) => {
 const Menu: React.FC = () => {
   const menuItems: MenuItemProps[] = [
     {
-      name: "Front-End",
+      name: " Front-End",
       color: "bg-red-500/50",
       badges: [
         "React",
@@ -88,7 +88,7 @@ const Menu: React.FC = () => {
       ],
     },
     {
-      name: "Back-End",
+      name: "UX Design",
       color: "bg-blue-500/50",
       badges: [
         "Node.js",
@@ -100,12 +100,12 @@ const Menu: React.FC = () => {
       ],
     },
     {
-      name: "Tools and Languages",
+      name: "Data Science ",
       color: "bg-green-500/50",
       badges: ["JavaScript", " C++", "Java", "Python", "Git", "PyCharm"],
     },
     {
-      name: "Specialized Domains",
+      name: "Python",
       color: "bg-purple-500/70",
       badges: ["NLP", "LLM", "SaaS", "Machine Learning"],
     },

@@ -18,12 +18,12 @@ const Hero = () => {
         <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
 
 
-          <div className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto">
+          <div className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto capitalize">
             <span>
               Hi
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                 {" "}
-                Im Ashlesha <br/>
+                I'm Ashlesha <br/>
               </span>
              Full stack developer
             </span>
@@ -37,9 +37,9 @@ const Hero = () => {
               <li>Web apps</li>
             </ul> */}
           </p>
-          <a className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
+          <Button className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
             Learn More!
-          </a>
+          </Button>
         </div>
 
         <div className="w-full h-full flex justify-center items-center">

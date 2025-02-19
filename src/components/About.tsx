@@ -10,12 +10,12 @@ const About = () => {
             <div className="w-full h-full border-r-[3px] border-neutral-400 rounded-br-[500px]" />
           </div>
           <div className="mb-8 w-2/3">
-            I’m Anuj Bhuyar, a full-stack developer passionate about building
-            innovative, user-focused web applications. With expertise in React,
-            Next.js, Tailwind CSS, and Node.js, I craft seamless frontends and
-            powerful backends. I’m always exploring new technologies and
-            integrating AI solutions to create smarter, more intuitive
-            experiences. Let’s build something amazing!
+            As a passionate Computer Engineering student, I bring adaptability
+            and a strong foundation in technology to contribute effectively to
+            the Software Project. With proficiency in UI/UX design using tools
+            like Figma and a solid understanding of data science, I assure
+            dedication to project guidelines and professionalism throughout. My
+            technical skills and commitment make me a strong fit for this role.
           </div>
 
           <div className="space-y-12 md:space-y-16">
@@ -33,56 +33,7 @@ const About = () => {
             </div>
 
             <div className="space-y-8">
-              {/* <div className="space-y-4">
-                <h3 className="text-xl md:text-2xl text-neutral-700">Core</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                  {["HTML", "CSS", "JS"].map((skill) => (
-                    <div
-                      key={skill}
-                      className="bg-neutral-800 text-white p-4 rounded-lg relative"
-                    >
-                      <div className="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-background" />
-                      <div className="text-lg font-medium">{skill}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-
-              <div className="space-y-4">
-                <h3 className="text-xl md:text-2xl text-neutral-700">
-                  Libraries & Frameworks
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                  {["React", "Next.js", "Redux"].map((skill) => (
-                    <div
-                      key={skill}
-                      className="bg-neutral-800 text-white p-4 rounded-lg relative"
-                    >
-                      <div className="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-background" />
-                      <div className="text-lg font-medium">{skill}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-
-              <div className="space-y-4">
-                <h3 className="text-xl md:text-2xl text-neutral-700">
-                  Tools & Platforms
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                  {["Git", "Figma", "Vercel"].map((skill) => (
-                    <div
-                      key={skill}
-                      className="bg-neutral-800 text-white p-4 rounded-lg relative"
-                    >
-                      <div className="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-background" />
-                      <div className="text-lg font-medium">{skill}</div>
-                    </div>
-                  ))}
-                </div>
-              </div> */}
+          
 
               <Menu />
             </div>
