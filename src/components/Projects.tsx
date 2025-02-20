@@ -2,7 +2,6 @@
 
 import { useState, useRef, ReactNode, MouseEvent } from "react";
 import { TiLocationArrow } from "react-icons/ti";
-import { Button } from "./ui/button";
 
 // Define the BentoTilt component
 interface BentoTiltProps {
@@ -206,14 +205,6 @@ const Projects: React.FC = () => (
         </BentoTilt> */}
       </div>
     </div>
-
-    <Router src="/info">
-    <Button>
-     
-      info page 
-      
-    </Button>
-    </Router>
   </section>
 );
 
