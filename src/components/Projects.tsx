@@ -2,6 +2,7 @@
 
 import { useState, useRef, ReactNode, MouseEvent } from "react";
 import { TiLocationArrow } from "react-icons/ti";
+import { Button } from "./ui/button";
 
 // Define the BentoTilt component
 interface BentoTiltProps {
@@ -95,7 +96,7 @@ export const BentoCard: React.FC<BentoCardProps> = ({
       />
       <div className="relative z-10 flex size-full flex-col justify-between p-5 text-white ">
         <div className="">
-          <h1 className="bento-title special-font text-3xl">{title}</h1>
+          <h1 className="bento-title special-font text-3xl bg-">{title}</h1>
           {description && (
             <p className="mt-3 max-w-64 text-xs md:text-base text-neutral-400">
               {description}
@@ -123,7 +124,7 @@ export const BentoCard: React.FC<BentoCardProps> = ({
               }}
             />
             <TiLocationArrow className="relative z-20" />
-            <p className="relative z-20">View Project</p>
+            <p className="relative z-20 text-neutral-100">View Project</p>
           </a>
         )}
       </div>
@@ -177,21 +178,21 @@ const Projects: React.FC = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="border-hsla rounded-md transition-transform duration-300 ease-out me-14 md:col-span-1 md:me-0">
+        {/* <BentoTilt className="border-hsla rounded-md transition-transform duration-300 ease-out me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="/digi.png"
             title={<>AI model for prediction of text </>}
             description="To develope a user interface for doctors to generate prescription using Natural Language Processing as integrated AI model for prediction of text."
             link=""
           />
-        </BentoTilt>
+        </BentoTilt> */}
 
         <BentoTilt className="border-hsla rounded-md transition-transform duration-300 ease-out me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="/21b.png"
             title={<>Auto capture photo by detecting smile</>}
             description="In this project, we developed an Auto-Capture photo system using smile detection technology."
-            link=""
+            link="https://github.com/Ashlesha2003/Attendance2"
           />
         </BentoTilt>
 
@@ -205,7 +206,17 @@ const Projects: React.FC = () => (
         </BentoTilt> */}
       </div>
     </div>
+
+    <Router src="/info">
+    <Button>
+     
+      info page 
+      
+    </Button>
+    </Router>
   </section>
 );
 
 export default Projects;
+
+
