@@ -97,7 +97,7 @@ export const BentoCard: React.FC<BentoCardProps> = ({
         <div className="">
           <h1 className="bento-title special-font text-3xl bg-">{title}</h1>
           {description && (
-            <p className="mt-3 max-w-64 text-xs md:text-base text-neutral-400">
+            <p className="mt-3 max-w-64 text-xs md:text-base text-neutral-100 backdrop-blur-md p-2 rounded-md">
               {description}
             </p>
           )}
@@ -188,10 +188,10 @@ const Projects: React.FC = () => (
 
         <BentoTilt className="border-hsla rounded-md transition-transform duration-300 ease-out me-14 md:col-span-1 md:me-0">
           <BentoCard
-            src="/21b.png"
+            src="/image.png"
             title={<>Auto capture photo by detecting smile</>}
             description="In this project, we developed an Auto-Capture photo system using smile detection technology."
-            link="https://github.com/Ashlesha2003/Attendance2"
+            link=""
           />
         </BentoTilt>
 

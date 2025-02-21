@@ -37,9 +37,12 @@ const Hero = () => {
               <li>Web apps</li>
             </ul> */}
           </p>
+         <Link href="#About">
           <Button className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
             Learn More!
           </Button>
+          </Link>
+          
         </div>
 
         <div className="w-full h-full flex justify-center items-center">

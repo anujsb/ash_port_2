@@ -3,7 +3,7 @@ import Menu from "./MenuItem";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div id="About" className="min-h-screen bg-white">
       <div>
         <section className="w-full max-w-5xl mx-auto px-4 py-8 md:py-16 relative">
           <div className="absolute hidden lg:block right-0 top-32 w-64 h-64 lg:w-96 lg:h-96">
