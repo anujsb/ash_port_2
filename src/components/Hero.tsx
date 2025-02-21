@@ -13,7 +13,7 @@ const Hero = () => {
 
 
   return (
-    <div className="h-screen w-full bg-black">
+    <div className="h-screen w-full bg-black flex items-center justify-center">
       <div className="flex flex-row items-center justify-center px-20 w-full z-[20]">
         <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
 
