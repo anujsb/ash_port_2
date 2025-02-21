@@ -37,7 +37,7 @@ const Hero = () => {
               <li>Web apps</li>
             </ul> */}
           </p>
-         <Link href="#About">
+         <Link href="https://drive.google.com/file/d/1N7vrSYb3-iQK48KiMzDgO33CZpBGoH_g/view?usp=sharing">
           <Button className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
             Learn More!
           </Button>
